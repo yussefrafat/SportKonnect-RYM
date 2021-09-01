@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS sportconnect;
+DROP DATABASE IF EXISTS sportsconnect;
 
-CREATE DATABASE sportconnect;
+CREATE DATABASE sportsconnect;

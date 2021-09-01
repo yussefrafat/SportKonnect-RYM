@@ -62,6 +62,7 @@ router.post("/logout", (req, res) => {
 });
 
 router.put("/:id", (req, res) => {
+  // expecting user to update username, email password
   User.update(req.body, {
     individualHooks: true,
     where: {
