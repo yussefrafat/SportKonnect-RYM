@@ -1,4 +1,5 @@
 const User = require("./User");
+const Comment = require("./Comment")
 // const Post = require("./Post");
 // const Like = require("./Like");
 // const Comment = require("./Comment");
@@ -53,4 +54,4 @@ const User = require("./User");
 //   foreignKey: "post_id",
 // });
 
-module.exports = { User }
+module.exports = { User, Comment }

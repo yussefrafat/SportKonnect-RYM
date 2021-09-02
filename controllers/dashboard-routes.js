@@ -1,7 +1,9 @@
-const router = require("express").Router();
-const { Post, Comment, User } = require("../models/");
 
-// get all posts for homepage
+
+const router = require("express").Router();
+const { Comment, User } = require("../models/");
+
+
 router.get("/", (req, res) => {
   console.log("dashboard route hit")
   res.render('dashboard')
