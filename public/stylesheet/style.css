@@ -120,3 +120,8 @@
   .signup_link a:hover{
     text-decoration: underline;
   }
+
+  #newsEl{
+    background-color: beige;
+    flex:20%
+  }
