@@ -2,6 +2,7 @@ const router = require('express').Router();
 const {User, Like, Post, Comment} = require('../../models');
 
 router.post('/', (req, res) => {
+    console.log('================================')
     User.create({
         username: req.body.username,
         email: req.body.email,

@@ -3,7 +3,7 @@ const { Post, Comment, User } = require("../models/");
 
 // get all posts for homepage
 router.get("/", (req, res) => {
-  console.log("home route hit")
+  console.log("dashboard route hit")
   res.render('dashboard')
 });
 
