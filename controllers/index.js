@@ -6,7 +6,7 @@ const loginRoutes = require('./login-routes')
 const signupRoutes = require('./signup-routes');
 
 router.use('/login', loginRoutes)
-router.use('/home', homepageRoutes);
+router.use('/', homepageRoutes);
 router.use('/dashboard', dashboardRoutes);
 router.use('/signup', signupRoutes);
 // router.use('/api', apiRoutes)
