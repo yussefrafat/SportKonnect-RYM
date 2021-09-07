@@ -10,19 +10,19 @@ router.get('/', (req, res) => {
   })
 })
 
-router.post("/", (req, res) => {
+router.post("/signup", (req, res) => {
   User.create({
     username: req.body.username,
-    password: req.body.password,
+    password: req.body.password
   })
     .then((dataUser) => {
-      req.session.save(() => {
-        req.session.user_id = dataUser.id;
-        req.session.username = dataUser.username;
-        req.session.loggedIN = true;
+      // req.session.save(() => {
+      //   req.session.user_id = dataUser.id;
+      //   req.session.username = dataUser.username;
+      //   req.session.loggedIN = true;
 
         res.json(dataUser);
-      });
+      // });
     })
     .catch((err) => {
       console.log(err);
@@ -49,15 +49,15 @@ router.post("/login", (req, res) => {
       return;
     }
 
-    req.session.save(() => {
-      req.session.user_id = dbUserData.id;
-      req.session.username = dbUserData.username;
-      req.session.loggedIn = true;
+    // req.session.save(() => {
+    //   req.session.user_id = dbUserData.id;
+    //   req.session.username = dbUserData.username;
+    //   req.session.loggedIn = true;
 
       res.json({ user: dbUserData, message: "You are now logged in!" });
     });
   });
-});
+// });
 
 router.post("/logout", (req, res) => {
   if (req.session.loggedIn) {
