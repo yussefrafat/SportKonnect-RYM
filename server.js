@@ -5,7 +5,7 @@ const express = require("express");
 // const helpers = require('./utils/helpers');
 const routes = require('./controllers/api')
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 80;
 
 // const sequelize = require("./config/connection");
 // const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -55,5 +55,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(require('./controllers/api/'));
 app.use(require('./controllers/'))
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
+  app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
+})
 });
