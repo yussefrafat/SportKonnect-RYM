@@ -17,11 +17,11 @@ console.log(username, password)
       console.log(data ,"HERE'S THE RESPONSE")
     })
     // console.log("HERE'S THE RESPONSE")
-    // if (response.ok) {
-    //   document.location.replace('/');
-    // } else {
-    //   alert(response.statusText);
-    // }
+    if (response.ok) {
+      document.location.replace('/');
+    } else {
+      alert(response.statusText);
+    }
   }
 }
 
