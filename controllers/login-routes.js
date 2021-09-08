@@ -1,15 +1,15 @@
 const router = require("express").Router();
 const { Post, Comment, User } = require("../models/");
 
-// get all posts for homepage
+// login page
 router.get("/", (req, res) => {
   console.log("login route hit")
   res.render('loginpage')
 });
 
-router.get('/login', (req, res) => {
-  res.redirect('/')
-})
+// router.get('/login', (req, res) => {
+//   res.redirect('/')
+// })
 
 
 module.exports = router;
