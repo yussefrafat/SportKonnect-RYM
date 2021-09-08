@@ -1,4 +1,4 @@
- async function loginFormHandler(event) {
+ function loginFormHandler(event) {
   event.preventDefault();
 
   const username = document.querySelector('#username-login').value.trim();
@@ -6,20 +6,22 @@
 console.log(username, password)
   if (username && password) {
     console.log("username:" ,username, "password:", password )
-    const response = await fetch('/api/users', {
+    fetch('users/login', {
       method: 'POST',
       body: JSON.stringify({
         username,
         password
       }),
       headers: { 'Content-Type': 'application/json' }
-    });
-    console.log(response, "HERE'S THE RESPONSE")
-    if (response.ok) {
-      document.location.replace('/');
-    } else {
-      alert(response.statusText);
-    }
+    }).then(data => {
+      console.log(data ,"HERE'S THE RESPONSE")
+    })
+    // console.log("HERE'S THE RESPONSE")
+    // if (response.ok) {
+    //   document.location.replace('/');
+    // } else {
+    //   alert(response.statusText);
+    // }
   }
 }
 

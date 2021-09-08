@@ -7,17 +7,9 @@ const routes = require('./controllers/api')
 const app = express();
 const PORT = process.env.PORT || 80;
 
-// const sequelize = require("./config/connection");
-// const SequelizeStore = require('connect-session-sequelize')(session.Store);
-// const hbs = exphbs.create({helpers});
 app.use(express.json());
 app.use(routes);
 
-
-// app.listen(PORT, () => console.log('Now listening'));
-
-
-// const path = require('path');
 
 
 const exphbs = require('express-handlebars');
