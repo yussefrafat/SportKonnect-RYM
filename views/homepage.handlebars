@@ -1,0 +1,174 @@
+{{!-- <header>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/homepage">SportsKonnectRYM</a>
+    <a href="/logout">logout</a>
+</header>
+
+<section id= "choice of sports">
+    <a href="/basketball">Basketball</a>
+    <a href= "/soccer">Soccer</a>
+</section>
+
+<section id= "news">
+    
+</section> --}}
+
+
+ <header>
+ 	<h1>SportKonnectRYM</h1>
+   <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/">SportsKonnectRYM</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/dashboard">Dashboard</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="logout" href="/login">logout</a>
+  </li>
+</ul>
+ </header>
+ <div class="row">
+ 	<div class="left-column">
+ 	  <div class="card">
+ 		<h2>Cristiano Ronaldo Is Back In Manchester United ! </h2>
+ 		<h5></h5>
+ 		<img src="/img/cr7.jpeg" alt="blog "/>
+ 		
+ 		<p>
+            United will pay Juventus a €15 million ($17.7 million) transfer fee, with a potential for €8 million ($9.4 million) in additional add-ons, according to a source familiar with the move. Man United and Ronaldo’s representatives at Gestifute still need to finalize contract terms and check the boxes on any health and visa issues. Ronaldo left United in 2009 when Real paid a then-record transfer of €94 million. The European transfer window closes Tuesday.
+
+
+             Ronaldo said: "Manchester United is a club that has always had a special place in my heart, and I have been overwhelmed by all the messages I have received since the announcement on Friday. I cannot wait to play at Old Trafford in front of a full stadium and see all the fans again.
+             "I'm looking forward to joining up with the team after the international games, and I hope we have a very successful season ahead."
+        </p>
+        <section id="app">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="comment">
+                <p v-for="items in item" v-text="items"></p>
+                  </div>
+                  </div>
+                  </div>
+              <div class="row">
+                <div class="col-6">
+              <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                  <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                </div>
+              </div>
+            </div>
+          </section>
+ 	  </div>
+ 	  <div class="card">
+ 		<h2>Chicago Bulls strengthen connection to Toronto Raptors with offseason additions</h2>
+ 		<h5></h5>
+ 		<img src="/img/raptors-vs-bulls.jpeg" alt="blog "/>
+ 		
+ 		<p>From general manager Marc Eversley to the newly-acquired DeMar DeRozan and three of Chicago's other free agency signings, there will be plenty of Raptors DNA present in the Windy City this season.
+            It began last year, when the Bulls appointed Canadian Marc Eversley as their general manager, making him the first NBA general manager to hail from the Greater Toronto Area. Eversley, who has been a mainstay in NBA front offices for the last 15 years, got his start as the Raptors assistant general manager in 2006, a post he held for seven years.
+        </p>
+        <section id="app">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div class="comment">
+                <p v-for="items in item" v-text="items"></p>
+                  </div>
+                  </div>
+                  </div>
+              <div class="row">
+                <div class="col-6">
+              <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                  <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                </div>
+              </div>
+            </div>
+          </section>
+ 	  </div>
+ 	</div>
+
+ 	<div class="right-column">
+ 		<div class="card">
+ 			 <h2>Upcoming Sports Video Games</h2>
+ 			 <img src="/img/games.jpeg" alt="me"/>
+              <ul>
+ 			 <li>NBA 2K22. Sep 10, 2021. 3 days.</li>
+             <li>SkateBIRD. Sep 16, 2021. 9 days.</li>
+              <li> eFootball 2022. Sep 30, 2021. 23 days.</li>
+              <li>Blood Bowl 3. Sep 2021. ~23 days.</li>
+              <li>FIFA 22. Oct 1, 2021. 24 days.</li>
+              <li>NASCAR 21: Ignition. Oct 28, 2021.</li>
+               <li>Riders Republic. Oct 28, 2021. SOON.</li>
+              <li>Skiing VR. Oct 2021. SOON.</li>
+             </ul>
+             <section id="app">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="comment">
+                    <p v-for="items in item" v-text="items"></p>
+                      </div>
+                      </div>
+                      </div>
+                  <div class="row">
+                    <div class="col-6">
+                  <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                      <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+ 		</div>
+ 		<div class="card">
+ 			 <h3>Events</h3>
+ 			 <img src="/img/35FECC69-D7BE-41F8-9460-E1492D6B0E41_1_201_a.jpeg" alt="popular"/>
+ 			 <img src="/img/B2A97969-3A20-4ABB-9561-43C3A9CA35A5_1_201_a.jpeg" alt="popular"/>
+              <section id="app">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="comment">
+                    <p v-for="items in item" v-text="items"></p>
+                      </div>
+                      </div>
+                      </div>
+                  <div class="row">
+                    <div class="col-6">
+                  <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                      <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+ 			 
+ 		</div>
+ 		<div class="card">
+ 			<h3>Top 100 Sports Plays of the Year 2020</h3>
+ 			<iframe width="420" height="345" src="https://www.youtube.com/embed/8SZX4wmV1jU?autoplay=1&mute=1">
+             </iframe>
+             <section id="app">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="comment">
+                    <p v-for="items in item" v-text="items"></p>
+                      </div>
+                      </div>
+                      </div>
+                  <div class="row">
+                    <div class="col-6">
+                  <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                      <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+ 		</div>
+ 	</div>
+ </div>
+
+<script src="/javascipt/logout.js"></script>
+ <script src="comment.js"></script>
+
+
