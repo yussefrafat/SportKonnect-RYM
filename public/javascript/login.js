@@ -1,4 +1,4 @@
- function loginFormHandler(event) {
+ async function loginFormHandler(event) {
   event.preventDefault();
 
   const username = document.querySelector('#username-login').value.trim();
@@ -6,15 +6,13 @@
 console.log(username, password)
   if (username && password) {
     console.log("username:" ,username, "password:", password )
-    fetch('users/login', {
-      method: 'POST',
+    const response = await fetch('users/login', {
+      method: 'post',
       body: JSON.stringify({
         username,
         password
       }),
       headers: { 'Content-Type': 'application/json' }
-    }).then(data => {
-      console.log(data ,"HERE'S THE RESPONSE")
     })
     // console.log("HERE'S THE RESPONSE")
     if (response.ok) {
