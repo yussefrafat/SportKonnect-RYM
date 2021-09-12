@@ -34,6 +34,6 @@ _ When the user logged in he his presented with the homepage with all the news
 
 ## Contributors GitHub
 
-Yussef Rafat : https://github.com/yussefrafat
-Rayan Diouf : https://github.com/Rd2423
-Mike O : https://github.com/Wizeeee
+- Yussef Rafat : https://github.com/yussefrafat
+- Rayan Diouf : https://github.com/Rd2423
+- Mike O : https://github.com/Wizeeee
