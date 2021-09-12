@@ -10,10 +10,10 @@ A webiste that serves all sports related news such as Latest Transfer, Pre-Seaso
 ### Website: 
 
 ### Screenshot:
-![screenshot1]((https://user-images.githubusercontent.com/ScreenShot-1.jpeg)
-![screenshot2]((https://user-images.githubusercontent.com/ScreenShot-2.jpeg)
-![screenshot3]((https://user-images.githubusercontent.com/Screenshot-3.jpeg)
-![screenshot4]((https://user-images.githubusercontent.com/ScreenShot-4.jpeg)
+![Screen Shot 2021-09-12 at 1 49 35 PM 2](https://user-images.githubusercontent.com/82121166/132998150-ed2d0b20-37ec-44a2-89d7-36b1b0260661.jpeg)
+![Screen Shot-2](https://user-images.githubusercontent.com/82121166/132998163-e0800be5-4a26-45b0-beb9-3cf62f53711c.jpeg)
+![Screenshot-3](https://user-images.githubusercontent.com/82121166/132998175-5d55fbce-83db-4faa-aab7-b29f3691630a.jpeg)
+![Screen Shot-4](https://user-images.githubusercontent.com/82121166/132998183-b0fd34d6-af74-4714-87f6-ade3c7bbb7ed.jpeg)
 
 ## Built with
 - 
