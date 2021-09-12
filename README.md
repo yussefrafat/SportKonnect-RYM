@@ -10,10 +10,10 @@ A webiste that serves all sports related news such as Latest Transfer, Pre-Seaso
 ### Website: 
 
 ### Screenshot:
-![screenshot1](SportKonnect-RYM/ScreenShot-1.jpeg)
-![screenshot2](SportKonnect-RYM/ScreenShot-2.jpeg)
-![screenshot3](SportKonnect-RYM/Screenshot-3.jpeg)
-![screenshot4](SportKonnect-RYM/ScreenShot-4.jpeg)
+![screenshot1]((https://user-images.githubusercontent.com/ScreenShot-1.jpeg)
+![screenshot2]((https://user-images.githubusercontent.com/ScreenShot-2.jpeg)
+![screenshot3]((https://user-images.githubusercontent.com/Screenshot-3.jpeg)
+![screenshot4]((https://user-images.githubusercontent.com/ScreenShot-4.jpeg)
 
 ## Built with
 - 
