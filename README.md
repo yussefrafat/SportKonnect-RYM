@@ -16,14 +16,24 @@ A webiste that serves all sports related news such as Latest Transfer, Pre-Seaso
 ![Screen Shot-4](https://user-images.githubusercontent.com/82121166/132998183-b0fd34d6-af74-4714-87f6-ade3c7bbb7ed.jpeg)
 
 ## Built with
-- 
--
--
--
--
+- HTML(Handlebars)
+- CSS
+- JS
+- NODE
+- ORM
+- MVC
+- SQL
+- VueJS (new techologie used)
+
 
 ## Application Description
 - When the user visit the website we is presented with a login page / signup page
 _ When the user logged in he his presented with the homepage with all the news
 - When the user is intrested with a post then he can comment on that post 
 - When the user is done he can click on logout then he his presented with the Login page
+
+## Contributors GitHub
+
+Yussef Rafat : https://github.com/yussefrafat
+Rayan Diouf : https://github.com/Rd2423
+Mike O : https://github.com/Wizeeee
