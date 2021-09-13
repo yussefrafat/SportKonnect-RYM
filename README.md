@@ -19,6 +19,7 @@ A webiste that serves all sports related news such as Latest Transfer, Pre-Seaso
 - HTML(Handlebars)
 - CSS
 - JS
+- JQuery
 - NODE
 - ORM
 - MVC
